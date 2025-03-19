@@ -1,4 +1,5 @@
-public class Computer {
+//napravi abstract klasu tako da dodas abstract
+public abstract class Computer {
     String model;
     String manufacturer;
     String operatingSystem;
@@ -8,6 +9,11 @@ public class Computer {
         this.manufacturer = manufacturer;
         this.operatingSystem = operatingSystem;
     }
+
+    //abstract metode
+    public abstract String getComputerType();
+
+    public abstract int getPortabilityScore();
 
     //setters
     public void setModel() {

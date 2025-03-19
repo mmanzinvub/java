@@ -8,6 +8,21 @@ public class Laptop extends Computer {
         this.weight = weight;
     }
 
+    /*potrebno je implementirati abstract metode (inace error: Class 'Desktop' must either be declared abstract 
+    or implement abstract method 'getComputerType()' in 'Computer)*/
+
+    //abstract metode
+    @Override
+    public String getComputerType() {
+        return "laptop computer";
+    }
+
+    @Override
+    public int getPortabilityScore() {
+        return (int)(weight);
+    }
+    
+    
     //setter
     public void setBatteryCapacity(int batteryCapacity) {
         this.batteryCapacity = batteryCapacity;

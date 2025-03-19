@@ -6,6 +6,20 @@ public class Desktop extends Computer {
         this.caseHeight = caseHeight;
     }
 
+    /*potrebno je implementirati abstract metode (inace error: Class 'Desktop' must either be declared abstract
+    or implement abstract method 'getComputerType()' in 'Computer)*/
+
+    //abstract metode
+    @Override
+    public String getComputerType() {
+        return "desktop computer";
+    }
+
+    @Override
+    public int getPortabilityScore() {
+        return (int)(5 + caseHeight / 30);
+    }
+
     //setter
     public void setCaseHeight(double caseHeight) {
         this.caseHeight = caseHeight;
