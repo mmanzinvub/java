@@ -1,3 +1,5 @@
+package ZAD1;
+
 public class Kompas implements FromDegreeToRadian {
     double otklonIgle;
 

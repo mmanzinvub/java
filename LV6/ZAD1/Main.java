@@ -1,3 +1,4 @@
+package ZAD1;
 import java.util.Scanner;
 
 public class Main {

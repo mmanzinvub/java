@@ -1,3 +1,5 @@
+package ZAD1;
+
 public enum Smjerovi {
     SJEVER ("N"),
     JUG ("S"),
