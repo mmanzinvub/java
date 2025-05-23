@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demoapp.HelloController">
+   <children>
+      <Circle fx:id="circle" fill="DODGERBLUE" layoutX="290.0" layoutY="187.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="leftButton" layoutX="115.0" layoutY="175.0" mnemonicParsing="false" onAction="#moveCircleLeft" text="Left" />
+      <Button fx:id="nextButton" layoutX="264.0" layoutY="351.0" mnemonicParsing="false" onAction="#switchToNextScene" text="Next" />
+      <Button fx:id="downButton" layoutX="264.0" layoutY="297.0" mnemonicParsing="false" onAction="#moveCircleDown" text="Down" />
+      <Button fx:id="upButton" layoutX="264.0" layoutY="36.0" mnemonicParsing="false" onAction="#moveCircleUp" text="Up" />
+      <Button fx:id="rightButton" layoutX="423.0" layoutY="188.0" mnemonicParsing="false" onAction="#moveCircleRight" text="Right" />
+      <Label fx:id="nameLabel" layoutX="73.0" layoutY="40.0" text="Label" />
+   </children>
+</AnchorPane>
