@@ -1,0 +1,5 @@
+Da bi spojio svoju aplikaciju s bazom, trebas u XAMPP upalit apache i mysql.
+
+Kada ti to runa moras otici na localhost/phpmyadmin
+
+Konekcije isto tako moras configat u java dokumentima.
