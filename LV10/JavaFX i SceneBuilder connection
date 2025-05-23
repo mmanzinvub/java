@@ -1,0 +1,7 @@
+Da povezes JavaFX sa Scene Builderom, otvori Scene Builder i nadi hello-view.fxml koji se inace nalazi pod IdeaProjects/LVx/src/main/resources/com/example/lvx/hello-view,fxml
+
+Ako je povezano tocno vidjet ces ekran sa gumbom Hello!
+
+U IntelliJ IDEA u settings upisi JavaFX i kaze ti da stavis path do SceneBuildera pa onda to stavis
+
+I onda runnas HelloWorld aplikaciju pod com.example.lvx ili ako je lab10 iz jave onda runas DemoApp
