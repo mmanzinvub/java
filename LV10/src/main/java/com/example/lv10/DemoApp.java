@@ -17,8 +17,8 @@ public class DemoApp extends Application {
         stage.setScene(scene);
         stage.show();
         SceneManager.setStage(stage);
-        SceneManager.registerScene("login", "/home/matko/IdeaProjects/LV10/src/main/resources/com/example/lv10/Login.fxml");
-        //SceneManager.registerScene("bookTable", "/org/example/demoapp/book-table.fxml");
+        SceneManager.registerScene("Bogin", "/home/matko/IdeaProjects/LV10/src/main/resources/com/example/lv10/Login.fxml");
+        SceneManager.registerScene("BookTable", "/home/matko/IdeaProjects/LV10/src/main/resources/com/example/lv10/Book-table.fxml");
     }
 
     public static void main(String[] args) {

@@ -45,7 +45,7 @@ public class LoginController {
             wrongUser.setVisible(false);
             wrongPass.setVisible(false);
             System.out.println("logged");
-            //SceneManager.switchTo("bookTable");
+            SceneManager.switchTo("bookTable");
         }
     }
 }
